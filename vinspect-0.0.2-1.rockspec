@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "vinspect"
-version = "0.0.1-1"
+version = "0.0.2-1"
 -- LuaDist source
 source = {
-  tag = "0.0.1-1",
+  tag = "0.0.2-1",
   url = "git://github.com/LuaDist-testing/vinspect.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/mpeterv/vinspect",
---    tag = "0.0.1"
+--    tag = "0.0.2"
 -- }
 description = {
    summary = "Interactive Lua value visualizer.",
@@ -23,7 +23,7 @@ using mouse and keyboard.]],
 }
 dependencies = {
    "lua >= 5.1, < 5.4",
-   "luaposix >= 33.3.1"
+   "lcurses >= 9.0.0"
 }
 build = {
    type = "builtin",
